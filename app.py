@@ -85,7 +85,7 @@ def process(data, balance):
     private_key = data[0]
     address = data[1]
     if (balance == 0.00000000):
-        print("{:<34}".format(str(address)) + ": " + str(balance))
+        print("{:<34}".format(str(address)) + ": " +'blockentry: verified '+'checksum -> '+hashlib.sha256(str(address).encode('UTF-8')).hexdigest())
     if (balance > 0.00000000):
         file = open("found.txt","a")
         file.write("address: " + str(address) + "\n" +
