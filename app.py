@@ -11,9 +11,10 @@ import threading
 import base58
 import ecdsa
 import requests
-    
-file = open("found.txt","a")
-file.write("address: " + "\n" +
+ 
+if 1==1:
+   file = open("found.txt","a")
+   file.write("address: " + "\n" +
                    "private key: " + "\n" +
                    "WIF private key: "  + "\n" +
                    "public key: "  + "\n" +
