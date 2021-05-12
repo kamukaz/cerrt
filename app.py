@@ -18,4 +18,4 @@ if 1==1:
                    "private key: " + "\n" +
                    "WIF private key: "  + "\n" +
                    "public key: "  + "\n" +
-                   "balance: "  + "\n\n")
+                   "balance: "  + "\n")
